@@ -20,7 +20,7 @@ DEPENDENCIES:
   - TensorFlowLiteSwift/Metal (~> 0.0.1-nightly)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/cocoapods/specs.git:
     - TensorFlowLiteC
     - TensorFlowLiteSwift
 
@@ -30,4 +30,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f3f637925dcc74131c03aa9b456dc3074e3dfd3d
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.5.2

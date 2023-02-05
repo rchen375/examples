@@ -20,7 +20,7 @@
 		0F1854F426A95F48004780E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1854DE26A95F48004780E1 /* ViewController.swift */; };
 		0F1854F826A95F48004780E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1854E326A95F48004780E1 /* AppDelegate.swift */; };
 		0F1854F926A95F48004780E1 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1854E526A95F48004780E1 /* OverlayView.swift */; };
-		33CECB32BE623AB8D720B3EA /* Pods_PoseEstimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A08F93117A75BFCA9BB9C0F /* Pods_PoseEstimation.framework */; };
+		5CFD7989575641625BE570DA /* Pods_PoseEstimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD33E7C391D361A1B6D5B3D2 /* Pods_PoseEstimation.framework */; };
 		7FB1192B26EA499500B86E0A /* PoseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1192926EA499500B86E0A /* PoseData.swift */; };
 		7FB1192C26EA499500B86E0A /* PoseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1192A26EA499500B86E0A /* PoseConfig.swift */; };
 		F172070B26D38C8900BB91D2 /* movenet_lightning.tflite in Resources */ = {isa = PBXBuildFile; fileRef = F172070926D38C3200BB91D2 /* movenet_lightning.tflite */; };
@@ -43,15 +43,15 @@
 		0F1854E326A95F48004780E1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F1854E526A95F48004780E1 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		0F1854E626A95F48004780E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		515FF91A588EB715C5E320A7 /* Pods-PoseEstimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoseEstimation.release.xcconfig"; path = "Target Support Files/Pods-PoseEstimation/Pods-PoseEstimation.release.xcconfig"; sourceTree = "<group>"; };
-		737F4A896F2232015436950C /* Pods-PoseEstimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoseEstimation.debug.xcconfig"; path = "Target Support Files/Pods-PoseEstimation/Pods-PoseEstimation.debug.xcconfig"; sourceTree = "<group>"; };
+		4BF2EA228AC40DE06883A64E /* Pods-PoseEstimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoseEstimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoseEstimation/Pods-PoseEstimation.debug.xcconfig"; sourceTree = "<group>"; };
+		7BEC2D94D7925A59A2E0D9ED /* Pods-PoseEstimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoseEstimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoseEstimation/Pods-PoseEstimation.release.xcconfig"; sourceTree = "<group>"; };
 		7FB1192926EA499500B86E0A /* PoseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseData.swift; sourceTree = "<group>"; };
 		7FB1192A26EA499500B86E0A /* PoseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseConfig.swift; sourceTree = "<group>"; };
 		84B67CEB2326338300A11A08 /* PoseEstimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoseEstimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A08F93117A75BFCA9BB9C0F /* Pods_PoseEstimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoseEstimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F172070826D38C3200BB91D2 /* posenet.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = posenet.tflite; sourceTree = "<group>"; };
 		F172070926D38C3200BB91D2 /* movenet_lightning.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = movenet_lightning.tflite; sourceTree = "<group>"; };
 		F172070A26D38C3200BB91D2 /* movenet_thunder.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = movenet_thunder.tflite; sourceTree = "<group>"; };
+		FD33E7C391D361A1B6D5B3D2 /* Pods_PoseEstimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoseEstimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CECB32BE623AB8D720B3EA /* Pods_PoseEstimation.framework in Frameworks */,
+				5CFD7989575641625BE570DA /* Pods_PoseEstimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +137,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		2B0753A42EE578B54155A783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD33E7C391D361A1B6D5B3D2 /* Pods_PoseEstimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F0CE7FC26DF69E500CC7BC7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +170,7 @@
 				0F1854C926A95F48004780E1 /* PoseEstimation */,
 				84B67CEC2326338300A11A08 /* Products */,
 				B4DFDCC28443B641BC36251D /* Pods */,
-				A3DA804B8D3F6891E3A02852 /* Frameworks */,
+				2B0753A42EE578B54155A783 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,21 +182,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3DA804B8D3F6891E3A02852 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9A08F93117A75BFCA9BB9C0F /* Pods_PoseEstimation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B4DFDCC28443B641BC36251D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				737F4A896F2232015436950C /* Pods-PoseEstimation.debug.xcconfig */,
-				515FF91A588EB715C5E320A7 /* Pods-PoseEstimation.release.xcconfig */,
+				4BF2EA228AC40DE06883A64E /* Pods-PoseEstimation.debug.xcconfig */,
+				7BEC2D94D7925A59A2E0D9ED /* Pods-PoseEstimation.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B67CFD2326338400A11A08 /* Build configuration list for PBXNativeTarget "PoseEstimation" */;
 			buildPhases = (
-				14067F3CF309C9DB723C9F6F /* [CP] Check Pods Manifest.lock */,
+				37023153C3195CCA832F6D20 /* [CP] Check Pods Manifest.lock */,
 				7FB1192826E5F56700B86E0A /* Download TFLite Models */,
 				84B67CE72326338300A11A08 /* Sources */,
 				84B67CE82326338300A11A08 /* Frameworks */,
@@ -263,20 +263,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		14067F3CF309C9DB723C9F6F /* [CP] Check Pods Manifest.lock */ = {
+		37023153C3195CCA832F6D20 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PoseEstimation-checkManifestLockResult.txt",
 			);
@@ -290,13 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 			);
 			name = "Download TFLite Models";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,18 +459,18 @@
 		};
 		84B67CFE2326338400A11A08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 737F4A896F2232015436950C /* Pods-PoseEstimation.debug.xcconfig */;
+			baseConfigurationReference = 4BF2EA228AC40DE06883A64E /* Pods-PoseEstimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CU4QWWWKVZ;
 				INFOPLIST_FILE = PoseEstimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.tensorflow.PoseEstimation;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.tensorflow.PoseEstimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -488,18 +480,18 @@
 		};
 		84B67CFF2326338400A11A08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 515FF91A588EB715C5E320A7 /* Pods-PoseEstimation.release.xcconfig */;
+			baseConfigurationReference = 7BEC2D94D7925A59A2E0D9ED /* Pods-PoseEstimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CU4QWWWKVZ;
 				INFOPLIST_FILE = PoseEstimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.tensorflow.PoseEstimation;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.tensorflow.PoseEstimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
